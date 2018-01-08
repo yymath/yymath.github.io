@@ -71,7 +71,7 @@ layout: default
                         </a>
                     </li>
                     {% endif %}
-                    {% if page.next.url %}{% if post.author != "yabing" %}{% if post.author != "yabing" %}
+                    {% if page.next.url %}{% if post.author != "yabing" %}{% if post.next.author != "yabing" %}
                     <li class="next">
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">
                         Next<br>
