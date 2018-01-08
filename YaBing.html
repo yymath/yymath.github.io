@@ -37,12 +37,12 @@ header-img: "img/tag-bg.jpg"
             </blockquote>-->
 
             <!-- 标签列表 -->
-			{% for tag in site.tags %}
+			{% for tag in site.tags %}{% if tag[1].author == "yabing" %}}
 			<div class="one-tag-list">
 			  	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
                     <span class="tag-text">{{ tag[0] }}</span>
                 </span>
-				{% for post in tag[1] %}{% if post.author == "yabing" %}
+				{% for post in tag[1] %}
 				  <!-- <li class="listing-item">
 				  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
 				  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
@@ -61,9 +61,9 @@ header-img: "img/tag-bg.jpg"
 				    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
 				</div>
 				<hr>
-				{% endif %}{% endfor %}
+				{% endfor %}
 			</div>
-			{% endfor %}
+			{% endif %}{% endfor %}
 
 		</div>
 	</div>
