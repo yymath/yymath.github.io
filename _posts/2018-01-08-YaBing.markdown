@@ -2,12 +2,15 @@
 layout:     post
 title:      "Hello YaBing"
 subtitle:   "First YaBing"
-date:       2018-01-08 20:58:00
+date:       2018-01-08 21:58:00
 author:     "yabing"
 header-img: "img/home-bg.jpg"
 catalog: true
 tags:
-    - First YaBing
+    - Second YaBing
 ---
 
-## 项目来
+## 有没有在讨厌我啊
+今天开始冷了，不知道你有没有冻着。晚上给你发了问候的信息，可能你在忙或者已经休息了，但希望千万不要是选择性的忽略我哈……心里面好忐忑，想多和你接触，多了解你，但是工作了大家有比较忙，我也不知道总是“打扰你”会不会让你觉得烦，真的好怕弄的都不能说话聊天了。晚安啦～
+
+睡前你终于回我了，虽然只短短的两句话，心里还是暖暖的，但是还是不知道你是不是对于我“打扰你”比较反感。。。
