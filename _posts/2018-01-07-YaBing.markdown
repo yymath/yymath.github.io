@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Hello YaBing"
-subtitle:   "Second YaBing"
+title:      "2018-01-07"
+subtitle:   "有没有在讨厌我啊"
 date:       2018-01-07 21:58:00
 author:     "yabing"
 header-img: "img/home-bg.jpg"
