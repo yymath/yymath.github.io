@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "018-01-08"
+title:      "2018-01-08"
 subtitle:   "手套丢了:("
-date:       2018-01-07 21:58:00
+date:       2018-01-08 21:45:00
 author:     "yabing"
 header-img: "img/home-bg.jpg"
 catalog: true
