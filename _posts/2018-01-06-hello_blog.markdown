@@ -1,9 +1,9 @@
 ---
 layout:     post
 title:      "Hello Blog"
-subtitle:   "博客开通历程"
+subtitle:   "Kick off"
 date:       2018-01-06 21:15:00
-author:     "bigpapio"
+author:     "yymath"
 header-img: "img/home-bg.jpg"
 catalog: true
 tags:
