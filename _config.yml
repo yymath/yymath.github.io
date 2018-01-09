@@ -1,11 +1,11 @@
 # Site settings
-title: yymath Blog
-SEOTitle: yymath Blog
+title: Somewhere Nearby
+SEOTitle: Somewhere Nearby
 header-img: img/home-bg.jpg
-email: bigpapio@outlook.com
-description: "好的技术注重的不是代码本身，而是代码设计本身！"
-keyword: "卿鑫鹏, BigPapio, 大狒狒, 大狒狒的博客, bigpapio Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 服务器"
-url: "https://papio0112.github.io"              # your host, for absolute URL
+email: aha?
+description: "I wanna ask you not to cry. I'll always be by your side"
+keyword: "yymath"
+url: "https://yymath.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
