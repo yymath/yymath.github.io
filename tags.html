@@ -37,7 +37,7 @@ header-img: "img/tag-bg.jpg"
             </blockquote>-->
 
             <!-- 标签列表 -->
-			{% for tag in site.tags %}
+			{% for tag in site.tags %}{% if tag[1][0].author != "yabing" %}
 			<div class="one-tag-list">
 			  	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
                     <span class="tag-text">{{ tag[0] }}99999{{ tag[1][0].author}}</span>
@@ -63,7 +63,7 @@ header-img: "img/tag-bg.jpg"
 				<hr>
 				{% endif %}{% endfor %}
 			</div>
-			{% endfor %}
+			{% endif %}{% endfor %}
 
 		</div>
 	</div>
