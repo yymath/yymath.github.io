@@ -40,7 +40,7 @@ header-img: "img/tag-bg.jpg"
 			{% for tag in site.tags %}
 			<div class="one-tag-list">
 			  	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
-                    <span class="tag-text">{{ tag[0] }}99999{{ tag[1][0]}}</span>
+                    <span class="tag-text">{{ tag[0] }}99999{{ tag[1][0].author}}</span>
                 </span>
 				{% for post in tag[1] %}{% if post.author != "yabing" %}
 				  <!-- <li class="listing-item">
