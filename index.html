@@ -1,9 +1,9 @@
 ---
 layout: page
-description: "住在森林里的创造者"
+description: "And if you try and look for me. Maybe you'll find me someday"
 ---
 
-{% for post in paginator.posts %}
+{% for post in paginator.posts %}{% if post.author != "yabing" %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
@@ -23,7 +23,7 @@ description: "住在森林里的创造者"
     </p>
 </div>
 <hr>
-{% endfor %}
+{% endif %} {% endfor %}
 
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}
