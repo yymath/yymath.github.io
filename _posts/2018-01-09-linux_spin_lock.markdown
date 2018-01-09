@@ -4,7 +4,7 @@ title:      "Linux Spin Lock Limitation"
 subtitle:   "Linux Spin Lock Limitation Simple Proof"
 date:       2018-01-07 16:15:00
 author:     "yymath"
-header-img: "img/linux_spin_lock.pdf)"
+header-img: "img/linux_spin_lock.pdf"
 catalog: true
 tags:
     - Linux Spin Lock
