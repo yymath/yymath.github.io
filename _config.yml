@@ -58,7 +58,7 @@ ba_track_id: f85b8838d6f8ba5aa1afd0be5d408e85
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "人生有终点，但是技术没有终点！"
+sidebar-about-description: "I wanna ask you not to cry. I'll always be by your side"
 sidebar-avatar: /img/avatar-papio.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
