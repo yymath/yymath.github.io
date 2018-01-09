@@ -11,7 +11,7 @@ header-img: "img/tag-bg.jpg"
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="site-heading" id="tag-heading">
-                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}22222{% endif %}</h1>
                     <span class="subheading">{{ page.description }}</span>
                 </div>
             </div>
@@ -26,7 +26,7 @@ header-img: "img/tag-bg.jpg"
             <!-- 标签云 -->
 			<div id='tag_cloud' class="tags">
 				{% for tag in site.tags %}
-				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}33333</a>
 				{% endfor %}
 			</div>
 
@@ -40,7 +40,7 @@ header-img: "img/tag-bg.jpg"
 			{% for tag in site.tags %}
 			<div class="one-tag-list">
 			  	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
-                    <span class="tag-text">{{ tag[0] }}</span>
+                    <span class="tag-text">{{ tag[0] }}99999{{ tag[1].post.author }}</span>
                 </span>
 				{% for post in tag[1] %}{% if post.author != "yabing" %}
 				  <!-- <li class="listing-item">
@@ -50,11 +50,11 @@ header-img: "img/tag-bg.jpg"
 				 <div class="post-preview">
 				    <a href="{{ post.url | prepend: site.baseurl }}">
 				        <h2 class="post-title">
-                            {{ post.title }}
+                            {{ post.title }}55555
 				        </h2>
 				        {% if post.subtitle %}
 				        <h3 class="post-subtitle">
-				            {{ post.subtitle }}
+				            {{ post.subtitle }}77777
 				        </h3>
 				        {% endif %}
 				    </a>
