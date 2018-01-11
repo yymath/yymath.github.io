@@ -48,5 +48,5 @@ In the model the tc – the average time spent in the critical section should de
 Also, another model is that one core can be reserved as a dispatcher, passing inter-core messages and managing queues. However, the bigger gets number of managed critical sections the more complicated and “slow” gets the model due to the very limited cache size.
 ![alt text](https://yymath.github.io/img/spinlock_p2.PNG)
 
-[1] Jonathan Corbet, (2013), "Improving ticket spinlocks". Available at: (http://lwn.net/Articles/531254/). Retrieved on 2013.10.29
+[1] Jonathan Corbet, (2013), "Improving ticket spinlocks". Available at: [http://lwn.net/Articles/531254/](http://lwn.net/Articles/531254/). Retrieved on 2013.10.29
 <p id="end"></p>
