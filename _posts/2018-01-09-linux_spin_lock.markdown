@@ -10,7 +10,8 @@ tags:
     - Linux Spin Lock
 ---
 
-## Linux Spin Lock Limitation proof by yy813 (CID 00848280)
+## Linux Spin Lock Limitation proof
+#### by yy813 (CID 00848280)
 This is a simple proof to some limitations to Linux Spin Lock mechanism. Please reference this post: [https://yymath.github.io/2018/01/07/linux_spin_lock/](https://yymath.github.io/2018/01/07/linux_spin_lock/). All right reserved.
 ### Step 1
 When k cores are either using or queued on, the lock, corresponding arrival rate is: ![alt text](https://yymath.github.io/img/spinlock_f1.PNG) for 0 <= k <= n-1
