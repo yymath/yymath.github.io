@@ -141,4 +141,4 @@ MarkDown详细文档请查看[Markdown 语法说明](https://www.appinn.com/mark
 <p id="end"></p>
 -->
 ## markdown tutorial
-https://guides.github.com/features/mastering-markdown/
+[tutorial](https://guides.github.com/features/mastering-markdown/)
