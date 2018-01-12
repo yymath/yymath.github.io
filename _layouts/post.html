@@ -64,7 +64,7 @@ layout: default
 
                 <ul class="pager">
 
-                    {% if post.author == "yabing" %}
+                    {% if post.author == "yabing" %}aa{{page.author}}aa
                         {% if page.previous.url %}{% if post.previous.author == "yabing" %}
                         <li class="previous">
                             <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">
