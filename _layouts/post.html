@@ -73,14 +73,13 @@ layout: default
                     </li>
                     {% endif %}{% endif %}
                     -->
-                    {% if page.next.url %}{% if post.author != "yabing" %}{% if post.next.author != "yabing" %}
-                    <li class="next">
+                    {% if page.next.url %}{% if ((post.author != "yabing") and (post.next.author != "yabing")) %}
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">
                         Next<br>
                         <span>{{page.next.title}}</span>
                         </a>
                     </li>
-                    {% endif %}{% endif %}{% endif %}
+                    {% endif %}{% endif %}
                 </ul>
 
                 <!-- UY BEGIN -->
