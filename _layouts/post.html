@@ -64,7 +64,7 @@ layout: default
 
                 <ul class="pager">
 
-                    {% if page.previous.url %}{% if post.author == "yabing" %}{% if post.previous == "yabing" %}
+                    {% if page.previous.url %}{% if post.author == "yabing" %}{% if post.previous.author == "yabing" %}
                     <li class="previous">
                         <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">
                         Previous {{page.previous.author}} -- {{page.author}}<br>
@@ -72,7 +72,7 @@ layout: default
                         </a>
                     </li>
                     {% endif %}{% endif %}{% endif %}
-                    {% if page.previous.url %}{% if post.author != "yabing" %}{% if post.previous != "yabing" %}
+                    {% if page.previous.url %}{% if post.author != "yabing" %}{% if post.previous.author != "yabing" %}
                     <li class="previous">
                         <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">
                         Previous {{page.previous.author}} -- {{page.author}}<br>
@@ -81,7 +81,7 @@ layout: default
                     </li>
                     {% endif %}{% endif %}{% endif %}
 
-                    {% if page.next.url %}{% if post.author == "yabing" %}{% if post.next == "yabing" %}
+                    {% if page.next.url %}{% if post.author == "yabing" %}{% if post.next.author == "yabing" %}
                     <li class="next">
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">
                         Next {{page.next.author}} -- {{page.author}} {{post.author == post.next.author}}<br>
@@ -89,7 +89,7 @@ layout: default
                         </a>
                     </li>
                     {% endif %}{% endif %}{% endif %}
-                    {% if page.next.url %}{% if post.author != "yabing" %}{% if post.next != "yabing" %}
+                    {% if page.next.url %}{% if post.author != "yabing" %}{% if post.next.author != "yabing" %}
                     <li class="next">
                         <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">
                         Next {{page.next.author}} -- {{page.author}} {{post.author == post.next.author}}<br>
